@@ -80,6 +80,11 @@ target_board_platform_cc_library_shared {
             "-DMAX_TARGET_SPECIFIC_CHANNEL_CNT=8",
             "-DSOUND_TRIGGER_PLATFORM_NAME=sdm660",
         ],
+        "msm8998": [
+            "-DPLATFORM_MSM8998",
+            "-DMAX_TARGET_SPECIFIC_CHANNEL_CNT=8",
+            "-DSOUND_TRIGGER_PLATFORM_NAME=msm8998",
+        ],
         default: [],
     }),
 
